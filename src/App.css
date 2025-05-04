@@ -1,0 +1,61 @@
+/* Base styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Button styles for selected category */
+button:hover {
+  transition: background-color 0.3s;
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Modal styling */
+.bg-white {
+  background-color: white;
+}
+
+.bg-opacity-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Repo card styling */
+.bg-white {
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.bg-white:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+/* Modal Close Button */
+button:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* Custom Styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a202c;
+}
